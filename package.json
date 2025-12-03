@@ -1,11 +1,15 @@
 {
   "name": "nextjs-redirect",
-  "version": "0.1.0",
+  "version": "1.0.0",
+  "description": "Zero-time invisible Next.js redirect app",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start -p $PORT"
+  },
+  "engines": {
+    "node": ">=18.17.0"
   },
   "dependencies": {
     "next": "16.0.6",
